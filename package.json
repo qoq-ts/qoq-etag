@@ -1,0 +1,25 @@
+{
+  "name": "fomex-etag",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:fomex-ts/fomex-etag.git",
+  "author": "范文华 <531362022@qq.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "peerDependencies": {
+    "fomex": ">=0.1.0"
+  },
+  "dependencies": {
+    "koa-conditional-get": "2.0.0",
+    "koa-etag": "3.0.0",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/koa-conditional-get": "^2.0.0",
+    "@types/koa-etag": "^3.0.0",
+    "fomex": "^0.0.63",
+    "typescript": "^3.9.5"
+  }
+}
