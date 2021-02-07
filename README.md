@@ -1,16 +1,16 @@
-# Fomex Etag
-ETag support for fomex based on [koa-etag](https://github.com/koajs/etag) and [koa-conditional-get](https://github.com/koajs/conditional-get)
+# Etag
+ETag support for qoq based on [koa-etag](https://github.com/koajs/etag) and [koa-conditional-get](https://github.com/koajs/conditional-get)
 
 # Installation
 
 ```bash
-yarn add fomex-etag
+yarn add qoq-etag
 ```
 
 # Usage
 ```typescript
-import { baseWebRouter } from 'fomex';
-import { PluginEtag } from 'fomex-etag';
+import { WebSlotManager } from 'qoq';
+import { Etag } from 'qoq-etag';
 
-export webRouter = baseWebRouter.global(new PluginEtag());
+export webSlots = WebSlotManager.use(new Etag());
 ```
