@@ -7,8 +7,6 @@ export class Etag extends Slot<Slot.Web> {
   constructor(options: Options = {}) {
     super();
 
-    this
-      .use(conditional())
-      .use(etag(options));
+    this.use(conditional()).use(etag(options));
   }
 }
